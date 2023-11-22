@@ -1,7 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Nunito:wght@200&family=Poppins&display=swap');
+
 body {
-    background-color: azure;
+    background-image: url('./images/arriere-plan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Nunito Sans';
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 40px;
 }
 
 h1 {
-    color: blue;
+   font-family: 'Poppins';
+}
+
+.oval-button {
+    border-radius: 50px; /* sets the border radius to half of its width to create an oval shape */
+    /* padding: 10px 20px; /* adjust padding as needed */
+    /* margin-bottom: -20px; */
+}
+
+#description {
+    margin-left: 50px;
 }
